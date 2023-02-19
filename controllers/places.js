@@ -4,6 +4,12 @@ router.get('/new', (req, res) => {
     res.render('places/new')
 })
 
+router.post('/', (req, res) => {
+  console.log(req.body)
+  res.send('POST /places')
+})
+
+
 // GET /places
 app.get('/places', (req, res) => {
   let places = [{
@@ -23,3 +29,4 @@ app.get('/places', (req, res) => {
   res.render('places/index', { places })
 })
 
+module.exports = router
