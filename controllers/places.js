@@ -9,8 +9,7 @@ router.get('/new', (req, res) => {
     res.render('places/new')
 })
 
-router.post('/', (req, res) => {
-  console.log(req.body)
+router.post('/', (req, res) => {  
   if (!req.body.pic) {
     // Default image if one is not provided
     req.body.pic = '/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg'
@@ -28,7 +27,7 @@ router.post('/', (req, res) => {
 
 
 // GET /places
-app.get('/places', (req, res) => {
+router.get('/places', (req, res) => {
   let places = [{
     name: 'H-Thai-ML',
     city: 'Seattle',

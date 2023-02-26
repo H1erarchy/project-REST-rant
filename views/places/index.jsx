@@ -1,5 +1,5 @@
 const React = require('react')
-const Def = require ('./default')
+const Def = require ('../default')
 
 function index (data) {
     let placesFormatted = data.places.map((place) => {
@@ -14,7 +14,7 @@ function index (data) {
             Located in {place.city}, {place.state}
           </p>
         </div>
-      )
+      )   
     })
     return (
       <Def>
@@ -28,4 +28,4 @@ function index (data) {
   }
   
 
-module.exports = error404
+module.exports = index
