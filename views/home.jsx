@@ -7,7 +7,7 @@ function home () {
             <main>
                 <h1>HOME</h1>
                 <div>
-                    <img src="/images/chad-montano-MqTOasuolcU-unsplash.jpg" alt="Pizza" />
+                    <img src="/images/saundarya-srinivasan-60nzTP7_hMQ-unsplash.jpg" alt="Pizza" />
                     <div>
                         Photo by <a href="AUTHOR_LINK">Brenda Godinez</a> on <a href="UNSPLASH_LINK">Unsplash</a>
                     </div>
