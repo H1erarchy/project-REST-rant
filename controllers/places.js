@@ -64,7 +64,6 @@ router.get('/:id', (req, res) => {
 
 router.post('/', (req, res) => {  
   if (!req.body.pic) {
-    // Default image if one is not provided
     req.body.pic = '/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg'
   }
   if (!req.body.city) {
@@ -92,7 +91,7 @@ router.delete('/:id', (req, res) => {
 })
 
 
-// GET /places
+
 router.get('/places', (req, res) => {
   let places = [{
     name: 'H-Thai-ML',
