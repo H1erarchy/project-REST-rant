@@ -15,9 +15,6 @@ function show (data) {
             </div>
             <div className="col-sm-6">
               <h2>
-                Rating
-              </h2>
-              <h2>
                 Description
               </h2>
               <h3>
@@ -35,9 +32,6 @@ function show (data) {
             </button>
           </form>
             </div>
-            <h2>
-              Comments
-            </h2>
           </div> 
           </main>
         </Def>
