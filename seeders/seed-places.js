@@ -1,3 +1,4 @@
+const places = require('../models/places')
 const db = require('../models')
 
 db.Place.create([{
